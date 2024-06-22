@@ -1,0 +1,8 @@
+.thumbnailcontainer {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.thumbnailImg {
+  width: 90px;
+}

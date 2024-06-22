@@ -1,0 +1,104 @@
+.navbar-container {
+  background-color: #2c0e3a;
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-logo {
+  width: 130px;
+}
+
+.score {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.scorecount {
+  color: #fec653;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.scorecord-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fec653;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.timerimg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.bgcontainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.displayeditemImg {
+  border-radius: 4px;
+  width: 500px;
+}
+
+.tablist-container {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.thumbnail-container {
+  padding: 0;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bgresultcontainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 70vh;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophyimg {
+  margin-top: 50px;
+  width: 250px;
+}
+
+.playagainbtn{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:none;
+  border-radius:8px;
+  background-color: #cf60c8;
+  color:#ffffff;
+  width:130px;
+  height:40px;
+}
